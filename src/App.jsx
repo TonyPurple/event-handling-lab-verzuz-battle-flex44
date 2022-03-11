@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Rapper from './components/Rapper/Rapper'
+import Status from './components/Status/Status'
+import CamronImg from './Images/camron.jpeg'
+import NasImg from './Images/nas.jpeg'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    camronHP: 225,
+    nasHP: 225,
+    battleStatus: "Ready to Battle"
+  }
+  render() {
+    return (
+      <div className="App">
+        <Rapper
+          pic={CamronImg}
+          DropTrack={this.camronDropTrack}
+          HP={this.state.camronHP}
+        />
+        <Rapper
+          pic={NasImg}
+          DropTrack={this.nasDropTrack}
+          HP={this.state.nasHP}
+        />
+        <Status battleStatus={this.state.battleStatus}/>
+      </div>
+    );
+  }
 }
-
 export default App;
