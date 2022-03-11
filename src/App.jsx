@@ -46,6 +46,41 @@ class App extends React.Component {
       battleStatus: move,
     })
   }
+  nasDropTrack = () => {
+    let move = ""
+    if(this.state.camronHP > 0) {
+      let nasTrackList = [
+        "If I Ruled The World",
+        "N.Y. State of Mind",
+        "Nas Is Like",
+        "Hate Me Now",
+        "Life's a Bitch",
+        "One Mic",
+        "The World is Yours",
+        "The Message",
+        "It Aint Hard to Tell",
+        "Got Ur Self A Gun",
+        "Affirmative Action",
+        "Street Dreams",
+        "Oochie Wally",
+        "Ether",
+        "One Love",
+        "Get Down",
+        "Halftime",
+        "I Can",
+        "Represent",
+        "Memory Lane",
+      ]
+      let track = Math.floor(Math.random()*nasTrackList.length)
+      move = "Nas drops " + nasTrackList[track]
+    } else {
+      move = "Cam'ron bows out"
+    }
+    this.setState({
+      camronHP: this.state.camronHP - 10, 
+      battleStatus: move,
+    })
+  }
   
   render() {
     return (
