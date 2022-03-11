@@ -11,6 +11,7 @@ class App extends React.Component {
     nasHP: 225,
     battleStatus: "Ready to Battle"
   }
+  
   render() {
     return (
       <div className="App">
