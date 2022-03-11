@@ -11,6 +11,41 @@ class App extends React.Component {
     nasHP: 225,
     battleStatus: "Ready to Battle"
   }
+  camronDropTrack = () => {
+    let move = ""
+    if(this.state.nasHP > 0) {
+      let camronTrackList = [
+        "Hey Ma",
+        "Oh Boy",
+        "Down and Out",
+        "Dipset Anthem",
+        "Welcome to New York City",
+        "Get 'em Girls",
+        "What Means the World to You",
+        "Suck It or Not",
+        "Horse & Carriage",
+        "You Gotta Love It",
+        "Losin Weight",
+        "I'm Ready",
+        "Get It In Ohio",
+        "Killa Cam",
+        "Daydreaming",
+        "I Really Mean It",
+        "Live My Life",
+        "Crunk Muzik",
+        "More Gangsta Music",
+        "Sports, Drugs & Entertainment",
+      ]
+      let track = Math.floor(Math.random()*camronTrackList.length)
+      move = "Cam'ron drops " + camronTrackList[track]
+    } else {
+      move = "Nas bows out"
+    }
+    this.setState({
+      nasHP: this.state.nasHP - 10, 
+      battleStatus: move,
+    })
+  }
   
   render() {
     return (
