@@ -22,7 +22,7 @@ What's the Beef?: Call it collateral damage. When New York radio station Hot 97 
 
 It’s actually a pretty classic diss. The freestyle gave birth to the infamous “I’ll smack the kufi off your head” line that Jim Jones started. Nas didn’t respond himself. Instead, he sent one of the younger members of his Bravehearts crew, Nashawn — who also went by one of the worst rap names ever, Millennium Thug — to respond. In his diss, Nashawn claimed that Cam’ron has AIDs, and he also blasted Cam’s second in command, Jim Jones.
 
-After Nashawn’s record hit the streets, the Diplomats released a mixtape called Diplomats Volume 3. On the tape, Cam starts his shit-talking right away, ranting about Nashawn and other Queensbridge street guys like Little E (who moved packs for Cam, apparently) and the incarcerated Sherm the Worm.
+After Nashawn’s record hit the streets, the Diplomats released a mixtape called Diplomats Volume 3. On the tape, Cam starts his smack-talking right away, ranting about Nashawn and other Queensbridge street guys like Little E (who moved packs for Cam, apparently) and the incarcerated Sherm the Worm.
 
 Many Dipset members sent their shots, but Jim Jones was the most invested in the beef, releasing freestyle after freestyle. And there was that iconic rant on “I Really Mean It,” which is a masterpiece. It was officially a crew thing. Dipset was involved and Nas’ crew, Bravehearts, was involved.
 
